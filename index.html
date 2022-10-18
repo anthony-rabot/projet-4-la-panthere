@@ -37,7 +37,7 @@
 
     <div class="page-container">
 
-        <header class="bloc">
+        <header class="bloc" role="banner">
             <div class="container bloc-sm">
 
                 <nav class="navbar" role="navigation">
@@ -53,12 +53,13 @@
                     <div class="collapse navbar-collapse navbar-1">
                         <ul class="site-navigation nav navbar-nav">
                             <li>
-                                <a href="index.html">Notre expertise</a>
+                                <a href="index.html" title="Accueil">Notre expertise</a>
                             </li>
                             <li>
                             </li>
                             <li>
-                                <a href="contactez-nous.html">Contactez nous</a>
+                                <a href="contactez-nous.html" title="Contactez l'Agence de web design La Panthère">Contactez
+                                    nous</a>
                             </li>
                         </ul>
                     </div>
@@ -75,7 +76,7 @@
                             <span class="contrast">Agence La Panthère</span>
                         </h1>
                         <div class="text-center">
-                            <a href="contactez-nous.html"
+                            <a href="contactez-nous.html" title="Nous contacter pour un projet de web design"
                                class="btn btn-lg btn-shadow btn-rd cta-hero btn-atomic-tangerine">Vous avez un projet de
                                 web design ?</a>
                         </div>
@@ -127,7 +128,7 @@
                     </div>
                 </div>
                 <div class="row voffset-lg">
-                    <figure>
+                    <figure class="temoignage">
                         <blockquote>
                             <p>L'Agence La Panthère est une excellente agence web ! Les web designers ont réussi à
                                 capturer l'essence de notre entreprise et à l'intégrer à notre site. Cela nous a aidé à
@@ -156,7 +157,7 @@
                             qui seront facilement trouvable sur les moteurs de recherche.</p>
 
                         <p class="text-center">
-                            <a class="ltc-black bold-link" href="contactez-nous.html">Contactez notre équipe</a>
+                            <a class="ltc-black bold-link" href="contactez-nous.html" title="Contacter notre agence de web design">Contactez notre équipe</a>
                         </p>
                     </div>
                 </div>
@@ -227,11 +228,11 @@
             </div>
         </div>
 
-        <div role="region" class="bloc bg-banniere">
+        <div role="region" aria-label="contact" class="bloc bg-banniere">
             <div class="container bloc-lg">
                 <div class="row">
                     <h2 class="mg-md text-center">
-                        <span class="contrast">Prêt pour redonner vie à votre projet ?</span><br><span class="contrast">Contactez notre équipe !</span>
+                        <span class="contrast">Prêt pour redonner vie à votre projet&nbsp;?</span><br><span class="contrast">Contactez notre équipe !</span>
                     </h2>
                     <div class="col-sm-12 text-center">
                         <a href="contactez-nous.html"
@@ -251,26 +252,27 @@
                         <div class="row row-no-gutters social">
                             <div class="col-sm-3">
                                 <div class="text-center">
-                                    <a aria-label="Twitter" class="social" href="index.html"><span
-                                            class="icon fa fa-twitter icon-md"></span></a>
+                                    <a aria-label="Twitter" title="Twitter" class="social" href="index.html"><span
+                                            class="icon fa fa-twitter icon-md" aria-hidden="true"></span></a>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="text-center">
-                                    <a aria-label="Facebook" class="social" href="index.html"><span
-                                            class="icon fa fa-facebook icon-md"></span></a>
+                                    <a aria-label="Facebook" title="Facebook" class="social" href="index.html"><span
+                                            class="icon fa fa-facebook icon-md" aria-hidden="true"></span></a>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="text-center">
-                                    <a aria-label="Dribble" class="social" href="index.html"><span
-                                            class="icon fa fa-dribbble icon-md"></span></a>
+                                    <a aria-label="Dribble" title="Dribble" class="social" href="index.html"><span
+                                            class="icon fa fa-dribbble icon-md" aria-hidden="true"></span></a>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="text-center">
-                                    <a aria-label="Instagram" class="social" href="index.html"><span
-                                            class="icon fa fa-instagram icon-md"></span></a>
+                                    <a aria-label="Instagram" title="Instagram" class="social" href="index.html">
+                                        <span class="icon fa fa-instagram icon-md" aria-hidden="true"></span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -279,6 +281,7 @@
                 </div>
             </div>
         </footer>
+
 
         <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
                 class="fa fa-chevron-up"></span></a>

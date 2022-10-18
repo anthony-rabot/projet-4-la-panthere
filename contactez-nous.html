@@ -27,7 +27,7 @@
 <main>
     <div class="page-container">
 
-        <header class="bloc">
+        <header class="bloc" role="banner">
             <div class="container bloc-sm">
 
                 <nav class="navbar" role="navigation">
@@ -56,7 +56,7 @@
             </div>
         </header>
 
-        <div class="bloc bgc-atomic-tangerine">
+        <div role="region" aria-label="introduction" class="bloc bgc-atomic-tangerine">
             <div class="container bloc-lg">
                 <h1 class="text-center">
                     <span class="contrast">Parlons web design !</span>
@@ -68,7 +68,7 @@
             </div>
         </div>
 
-        <div class="bloc bgc-white">
+        <div role="region" aria-label="contact" class="bloc bgc-white">
             <div class="container bloc-lg">
                 <div class="row">
                     <div class="col-sm-6">
@@ -104,20 +104,20 @@
                                           data-validation-required-message="Veuillez rédiger un message"
                                           required></textarea>
                             </div>
-                            <button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
+                            <button role="button" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
                                     type="submit">
                                 Envoyer
                             </button>
                         </form>
                     </div>
-                    <div class="col-sm-6">
+                    <aside role="complementary" class="col-sm-6 adresse">
                         <a class="black-link"
                            href="mailto:contact@agencelapanthere.com">contact@agencelapanthere.com</a>
                         <address>
                             2 place Sathonay 69001 Lyon
                             <br>Ouvert de 9h à 18h, du lundi au vendredi
                         </address>
-                    </div>
+                    </aside>
                 </div>
             </div>
         </div>
@@ -132,26 +132,27 @@
                         <div class="row row-no-gutters social">
                             <div class="col-sm-3">
                                 <div class="text-center">
-                                    <a aria-label="Twitter" class="social" href="index.html"><span
-                                            class="icon fa fa-twitter icon-md"></span></a>
+                                    <a aria-label="Twitter" title="Twitter" class="social" href="index.html"><span
+                                            class="icon fa fa-twitter icon-md" aria-hidden="true"></span></a>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="text-center">
-                                    <a aria-label="Facebook" class="social" href="index.html"><span
-                                            class="icon fa fa-facebook icon-md"></span></a>
+                                    <a aria-label="Facebook" title="Facebook" class="social" href="index.html"><span
+                                            class="icon fa fa-facebook icon-md" aria-hidden="true"></span></a>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="text-center">
-                                    <a aria-label="Dribble" class="social" href="index.html"><span
-                                            class="icon fa fa-dribbble icon-md"></span></a>
+                                    <a aria-label="Dribble" title="Dribble" class="social" href="index.html"><span
+                                            class="icon fa fa-dribbble icon-md" aria-hidden="true"></span></a>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="text-center">
-                                    <a aria-label="Instagram" class="social" href="index.html"><span
-                                            class="icon fa fa-instagram icon-md"></span></a>
+                                    <a aria-label="Instagram" title="Instagram" class="social" href="index.html">
+                                        <span class="icon fa fa-instagram icon-md" aria-hidden="true"></span>
+                                    </a>
                                 </div>
                             </div>
                         </div>

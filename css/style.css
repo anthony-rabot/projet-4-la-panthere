@@ -473,6 +473,15 @@ a[data-lightbox]:hover img {
     h2 {
         font-size: 18px;
     }
+
+    .adresse {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .adresse address {
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 767px) {
